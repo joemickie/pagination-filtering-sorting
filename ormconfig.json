@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "Mickiejoe1#",
+    "database": "pagination-db",
+    "entities": ["src/**/*.entity.ts"],
+    "migrations": ["src/migration/*.ts"],
+    "cli": {
+      "migrationsDir": "src/migration"
+    },
+    "synchronize": false
+  }
+  
